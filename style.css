@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Inter:wght@100;200;300;600;700;800;900&display=swap");
+
+body {
+  background-image: url("img/opera.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+header {
+  text-align: right;
+  margin-top: 30px;
+}
+
+@media (max-width: 1250px) {
+  header {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+
+header a {
+  color: white;
+  font-size: 34px;
+  margin-left: 19px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  color: white;
+  margin-top: 156px;
+  width: 900px;
+  justify-content: center;
+  display: flex;
+  height: 900px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+
+.container button {
+  background-color: black;
+  box-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px white;
+  color: red;
+  font-size: 50px;
+  height: 60px;
+  width: 444px;
+}
+
+.container label {
+  font-size: 44px;
+}
+
+.container .text {
+  margin: auto auto;
+  border-radius: 30px;
+  color: green;
+  background-color: white;
+  border: 1rem solid;
+  font-size: 30px;
+  font-weight: 200;
+  box-shadow: 0 0 600px white;
+  margin-bottom: 640px;
+  text-align: center;
+  font-size: 2.5em;
+  color: green;
+  letter-spacing: -1px;
+  text-transform: unset;
+  animation: blur 1.0s ease-out infinite;
+  opacity: 0.865;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+}
+
+@media (max-width: 1250px) {
+  .container .text {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+
+.photo_container {
+  color: white;
+  margin-top: 150px;
+  font-size: 34px;
+}
+
+.photo_container img {
+  width: 50%;
+}
+
+@media (max-width: 1250px) {
+  .photo_container img {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
